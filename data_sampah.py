@@ -42,7 +42,7 @@ for i, r in dataframe_scv.iterrows():
             produksi_sampah[(kota, tahun)] = jumlah_produksi 
 
 
-print("\nTotal produksi sampah per Kota/Kabupaten per tahun:")
+print("\nTotal produksi sampah kota/kabupaten pertahun:")
 print(pd.Series(produksi_sampah))
 
 
